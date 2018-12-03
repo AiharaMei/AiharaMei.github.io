@@ -51,7 +51,7 @@ postPatterns: 'circuitBoard'
 sns:
   weibo: '//weibo.com/u/1365449133'
   twitter: '//twitter.com/simk875441228'
-  email: '875441228@qq.com'
+  email: '//mailto:875441228@qq.com'
   github: '//github.com/AiharaMei'
 
 # Tags 设置标签
