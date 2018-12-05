@@ -19,5 +19,42 @@ tags: jekyll
 
 ### 1.1安装依赖
 
-  CentOS:
-  > `yum install libunwind8 libunwind8-dev gettext libicu-dev liblttng-ust-dev libcurl4-openssl-dev libssl-dev uuid-dev unzip`
+  `yum install libunwind8 libunwind8-dev gettext libicu-dev liblttng-ust-dev libcurl4-openssl-dev libssl-dev uuid-dev unzip`
+  
+### 1.2添加源 
+
+  ```
+  sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+  sudo sh -c 'echo -e "[packages-microsoft-com-prod]\nname=packages-microsoft-com-prod \nbaseurl= https://packages.microsoft.com/yumrepos/microsoft-rhel7.3-prod\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/dotnetdev.repo'
+  ```
+  
+### 1.3安装.NET Core
+
+  ```
+  sudo yum update
+  sudo yum install libunwind libicu
+  sudo yum install dotnet-sdk-2.1
+  ```
+  
+## 2.安装ArchiSteamFarm
+
+### 2.1下载ArchiSteamFarm
+
+  ```
+  mkdir asf
+  cd asf
+  wget https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/3.4.0.7/ASF-generic.zip
+  unzip ASF-generic.zip
+  ```
+  
+### 2.2配置config
+
+  > 参考[ASF官方wiki中文版](https://steamcn.com/t187703-1-1)
+  
+### 2.3启动
+
+  给ArchiSteamFarm添加权限，一次就可以了
+  `chmod +x ArchiSteamFarm.sh`
+  
+  启动
+  `./ArchiSteamFarm.sh`
