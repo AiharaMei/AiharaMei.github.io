@@ -7,20 +7,17 @@ cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-banner.png'
 tags: jekyll
 ---
 
-> Transform your plain text into static websites and blogs.
+## 1.安装.NET Core
 
-### Welcome
+所需要的依赖：
+* libcurl3 (libcurl)
+* libicu60 (libicu, latest version for your distribution, for example libicu57 for Debian 9)
+* libkrb5-3 (krb5-libs)
+* liblttng-ust0 (lttng-ust)
+* libssl1.0.2 (libssl, openssl-libs, latest 1.0.X version for your distribution)
+* zlib1g (zlib)
 
-This site aims to be a comprehensive guide to Jekyll. We’ll cover topics such as getting your site up and running, creating and managing your content, customizing the way your site works and looks, deploying to various environments, and give you some advice on participating in the future development of Jekyll itself.
+### 1.1安装依赖
 
-### So what is Jekyll, exactly?Permalink
-
-Jekyll is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through a converter (like [Markdown](https://daringfireball.net/projects/markdown/)) and our [Liquid](https://github.com/Shopify/liquid/wiki) renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server. Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your project’s page, blog, or website from GitHub’s servers for free.
-
-### Helpful HintsPermalink
-
-Throughout this guide there are a number of small-but-handy pieces of information that can make using Jekyll easier, more interesting, and less hazardous. Here’s what to look out for.
-
-### Video Test
-
-<iframe type="text/html" width="100%" height="385" src="http://www.youtube.com/embed/gfmjMWjn-Xg" frameborder="0"></iframe>
+  CentOS:
+  > `yum install libunwind8 libunwind8-dev gettext libicu-dev liblttng-ust-dev libcurl4-openssl-dev libssl-dev uuid-dev unzip`
