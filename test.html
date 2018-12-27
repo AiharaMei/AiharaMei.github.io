@@ -1,0 +1,382 @@
+<html>
+
+<head>
+    <title>新手教程</title>
+</head>
+
+<body>
+    <style>
+        a {
+            text-decoration: none;
+            color: #000000;
+        }
+
+        .sora_main {
+            background-image: url(https://yun.soradaisuki.com/fileblocks/file_1fd69b300502452da3f590705c8dee5e.block) !important;
+            background-position: center bottom !important;
+            background-size: cover !important;
+            background-attachment: fixed !important;
+            background-repeat: no-repeat !important;
+            width: calc(100% - 80px);
+            padding: 40px;
+        }
+
+        .sora_nav {
+            position: fixed;
+            right: 90px;
+            bottom: 100px;
+            z-index: 999;
+        }
+
+        .sora_nav_img {
+            position: relative;
+            right: -17px;
+            top: 0;
+            float: left;
+            z-index: 10;
+        }
+
+        .sora_nav_img img {
+            height: 115px;
+        }
+
+        .sora_ul {
+            position: relative;
+            float: left;
+            background-color: rgba(246, 249, 250, 0.5);
+            border: 1px solid #000000;
+            overflow: hidden;
+            border-radius: 4px;
+            padding-inline-start: 0;
+            padding: 10px;
+            overflow: hidden;
+            width: 150px;
+            margin: 0;
+        }
+
+        .sora_ul:hover {
+            background-color: rgba(255, 255, 255, 1);
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 15px 2px;
+        }
+
+        .sora_ul li {
+            list-style-type: none;
+            text-align: center;
+            padding: 0;
+            height: 31px;
+            line-height: 31px;
+            overflow: hidden;
+            -moz-transition: all 0.4s ease-in-out 0.1s;
+            -o-transition: all 0.4s ease-in-out 0.1s;
+            -webkit-transition: all 0.4s ease-in-out;
+            -webkit-transition-delay: 0.1s;
+            transition: all 0.4s ease-in-out 0.1s;
+        }
+
+        .sora_p_2nd>a {
+            display: block;
+            font-size: 14px;
+        }
+
+        .sora_p_3rd>a {
+            display: inline-block;
+            font-size: 12px;
+        }
+
+        .sora_p_2nd>a:hover {
+            color: #7fc121;
+        }
+
+        .sora_p_3rd>a:hover {
+            color: #6dc5dd;
+        }
+
+        .sora_ul li:nth-child(3):hover,
+        .sora_ul li:nth-child(4):hover {
+            height: 90px;
+        }
+
+        .sora_ul li:nth-child(5):hover,
+        .sora_ul li:nth-child(6):hover {
+            height: 31px;
+        }
+
+        .sora_ul li:nth-child(1):hover,
+        .sora_ul li:nth-child(2):hover {
+            height: 160px;
+        }
+
+        .sora_ul li:hover>a {
+            color: #df192a;
+        }
+
+        .sora_title {
+            text-align: center;
+        }
+
+        .sora_text_center {
+            text-align: center;
+        }
+
+        .sora_ssr {
+            border-radius: 15px;
+            background-color: rgba(250, 250, 250, 0.9);
+            padding: 30px !important;
+            margin-bottom: 40px !important;
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px 1px;
+            transition: background-color 0.3s;
+            animation-fill-mode: forwards !important;
+        }
+
+        .sora_ssr:hover {
+            background-color: rgba(255, 255, 255, 1);
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 15px 2px;
+        }
+
+        .sora_ssr p {
+            text-indent: 2em;
+        }
+
+        .sora_download {
+            color: #548abf;
+            text-decoration: underline;
+        }
+
+        pre {
+            background-color: #2d313a;
+            margin: 0 2em;
+            padding: 1em;
+            border-radius: 0.3em;
+            overflow: auto;
+            text-align: left;
+            display: inline-block;
+        }
+
+        code {
+            color: #84ac35;
+            text-align: left;
+        }
+
+        .sora_huimu,
+        .sora_huimu a {
+            background-color: #252525;
+            color: #252525;
+            text-shadow: none;
+        }
+
+        .sora_huimu:hover {
+            transition: color .13s linear;
+            color: #ffffff;
+        }
+        
+        .sora_huimu:hover a {
+            color: #548abf;
+            text-decoration: underline;
+        }
+    </style>
+    <div class="sora_main">
+        <div class="sora_title">
+            <h2 id="sora_title">一篇超长教程</h2>
+            <h5>动动手你会发现这个世界是多么的美妙<span class="sora_huimu" title="别想了没福利">结尾福利，我知道没福利你们不会看的...</span></h5>
+        </div>
+        <div class="sora_ssr">
+            <h3 id="sora_1" class="sora_text_center">第一节 科学上网</h3>
+            <p>目前主流的科学上网方式有很多，这里我就介绍2种用的人最多的软件。</p>
+            <h4 id="sora_1.1">1.1 Shadowsocks</h4>
+            <p>Shadowsocks简称SS，又名酸酸。</p>
+            <p>Shadowsocks是一种加密的传输方式（一种基于 Socks5 代理方式的网络数据加密传输包）。</p>
+            <p>Shadowsocks是目前主流的科学上网方式之一，是目前最稳定最好用的科学上网工具之一。</p>
+            <h5 id="sora_1.1.1">1.1.1 下载方式</h5>
+            <p><a target="_blank" class="sora_download" href="https://yun.soradaisuki.com/homeController/downloadFile.do?fileId=9af3ddea-6fa2-4b0a-a055-7172455f0625">点击下载</a></p>
+            <h5 id="sora_1.1.2">1.1.2 使用方法（小白教学）</h5>
+            <p>下载完后，将其解压打开<img style="width: 16px;" src="https://yun.soradaisuki.com/fileblocks/file_77f6c69f92384fb6be5bc73495b5c3b0.block">Shadowsocks.exe</p>
+            <p>如果报错请下载最新版本的<a target="_blank" class="sora_download" href="https://download.microsoft.com/download/0/5/C/05C1EC0E-D5EE-463B-BFE3-9311376A6809/NDP472-KB4054531-Web.exe">.net framework 4.7.1</a></p>
+            <p>启动之后任务栏中会出现一个小飞机图标,双击小飞机打开“编辑服务器”后，修改如下图：</p>
+            <p><img src="https://yun.soradaisuki.com/fileblocks/file_05c065fea09c449eb08f2a056a2f6b6b.block">然后确定（改配置为可用配置）</p>
+            <p>还有一种更方便的添加服务器配置的方法，复制如下代码：</p>
+            <pre><code>ss://YWVzLTI1Ni1jZmI6ZG9uZ3RhaXdhbmcuY29tQDEwMy4xMTQuMTYxLjE1ODo3Nzg4</code></pre>
+            <p>然后右键小飞机，如下图所示：</p>
+            <p><img src="https://yun.soradaisuki.com/fileblocks/file_4c071b437b2a4b72a341131d309f50f2.block">右键小飞机 > 服务器 > 从剪贴板导入URL...   之后点“确定”就ojbk了</p>
+            <p>其他的选项自行研究吧，反正这样你就可以翻墙了(不负责任的说道)</p>
+            <p>
+                <a target="_blank" class="sora_download" href="https://www.pixiv.net">pixiv</a>
+                <a target="_blank" class="sora_download" href="https://www.twitter.com">twitter</a>
+                <a target="_blank" class="sora_download" href="https://www.youtube.com/">youtube</a>
+                <a target="_blank" class="sora_download" href="https://www.facebook.com/">facebook</a>
+            </p>
+            <h4 id="sora_1.2">1.2 ShadowsocksR</h4>
+            <p>ShadowsocksR简称SSR，又名酸酸乳。</p>
+            <p>SSR是SS的修改版，也算是增强版，是在SS的基础上做了些功能的增加和修改。</p>
+            <p>ShadowsocksR是目前主流的科学上网方式之一，也是目前最稳定最好用的科学上网工具之一。</p>
+            <h5 id="sora_1.2.1">1.2.1 下载方式</h5>
+            <p><a target="_blank" class="sora_download" href="https://yun.soradaisuki.com/homeController/downloadFile.do?fileId=9c8d03e4-1ee2-4c9e-a65d-6a713b82c05a">点击下载</a></p>
+            <h5 id="sora_1.2.2">1.1.2 使用方法（小白教学）</h5>
+            <p>下载完后，将其解压，你会看到有2个应用程序，分别是ShadowsocksR-dotnet2.0.exe和ShadowsocksR-dotnet4.0.exe</p>
+            <p>ShadowsocksR-dotnet2.0.exe是给XP用户用的</p>
+            <p>ShadowsocksR-dotnet4.0.exe支持win7、win8、win10</p>
+            <p>基本操作和SS一样的，看下上面的教程就好了，最后我给个可用配置，如下图（2种方式）：</p>
+            <p><img src="https://yun.soradaisuki.com/fileblocks/file_58128328dde24132a8fa2b332110da8d.block"></p>
+            <pre><code>ssr://MTAzLjExNC4xNjEuMTU4Ojc3ODg6b3JpZ2luOmFlcy0yNTYtY2ZiOnBsYWluOlpHOXVaM1JoYVhkaGJtY3VZMjl0Lz9vYmZzcGFyYW09</code></pre>
+            <p>其他的选项自行研究吧，反正这样你就可以翻墙了(不负责任的说道)</p>
+            <p>
+                <a target="_blank" class="sora_download" href="https://www.pixiv.net">pixiv</a>
+                <a target="_blank" class="sora_download" href="https://www.twitter.com">twitter</a>
+                <a target="_blank" class="sora_download" href="https://www.youtube.com/">youtube</a>
+                <a target="_blank" class="sora_download" href="https://www.facebook.com/">facebook</a>
+            </p>
+        </div>
+        <div class="sora_ssr">
+            <h3 id="sora_2" class="sora_text_center">第二节 告别迅雷</h3>
+            <p>迅雷介绍什么的不谈了反正大家都认识，这个软件非常的垃圾，资源下不动，会弹广告，提速更是笑话，老子200M宽带，提速后变成了20M宽带<img src="https://yun.soradaisuki.com/fileblocks/file_67c8bc8015764b3e81ab68e2eee3f373.block"><img src="https://yun.soradaisuki.com/fileblocks/file_4a9ddc6b140844159b6af58c2dc28c83.block">（最后重启了下路由器），总而言之就是垃圾。</p>
+            <p>下面是给大家介绍2款不错的下载软件</p>
+            <h4 id="sora_2.1">2.1 Free Download Manager</h4>
+            <p>Free Download Manager是一个完全免费的多功能的下载和管理工具。<span class="sora_huimu" title="你懂得">支持BT下载</span></p>
+            <h5 id="sora_2.1.1">2.1.1 下载方式</h5>
+            <p>
+                <a target="_blank" class="sora_download" href="https://dn3.freedownloadmanager.org/5/5.1-latest/fdm5_x64_setup.exe">点击下载</a>
+                <a target="_blank" class="sora_download" href="https://www.freedownloadmanager.org/">官网地址</a>
+            </p>
+            <h5 id="sora_2.1.2">2.1.2 使用方式</h5>
+            <p><span class="sora_huimu" title="看什么看，别看">这个介绍个鬼啊，看一眼就会了。</span></p>
+            <h4 id="sora_2.2">2.2 Aria2（小白别用）</h4>
+            <p>Aria2是一个轻量级的多协议和多源命令行 下载实用程序。它支持HTTP / HTTPS，FTP，SFTP， BitTorrent和Metalink。aria2可以通过内置的 JSON-RPC和XML-RPC接口进行操作。</p>
+            <h5 id="sora_2.2.1">2.2.1 下载方式</h5>
+            <p><a target="_blank" class="sora_download" href="https://yun.soradaisuki.com/homeController/downloadFile.do?fileId=55cb5720-206d-4be3-927a-12629d8687ac">点击下载</a><span class="sora_huimu" title="你知道得太多了">该版本是最新版本的破解版，解除单服务器最大连接数为16，修改至128</span></p>
+            <h5 id="sora_2.2.2">2.2.2 使用方式</h5>
+            <p><span class="sora_huimu" title="看了你也不会用">配置上比较麻烦，不想介绍了，就算介绍了小白也不一定学得会，想知道怎么用的自行百度（aria2真的很强大）。</span></p>
+        </div>
+        <div class="sora_ssr">
+            <h3 id="sora_3" class="sora_text_center">第三节 告别百度云</h3>
+            <p>百度云也没什么好介绍的，自从辣鸡百度云开始限速和大文件强制客户端后，只能说也就那样吧<span class="sora_huimu" title="你懂的">开你马的会员，我还不如开115会员呢</span>。</p>
+            <p>在限速和限制客户端之后，我一直都是用aria2来下载百度云上的资源速度杠杠的，不过当时最流行的就是破解版百度云无限试用。</p>
+            <p>破解版百度云被和谐后，诞生出了很多基于aria2开发的图形界面的下载软件，这里只介绍一款。</p>
+            <h4 id="sora_3.1">3.1 PanDownload</h4>
+            <p>PanDownload的功能很丰富，可以搜索资源、新番下载、远程下载等...</p>
+            <h5 id="sora_3.1.1">3.1.1 下载方式</h5>
+            <p>
+                <a target="_blank" class="sora_download" href="http://pandownload.com/2.0.5">点击下载</a>
+                <a target="_blank" class="sora_download" href="https://www.lanzous.com/i2dwx4j">网盘下载</a>
+                <a target="_blank" class="sora_download" href="http://pandownload.com/index.html">官方地址</a>
+            </p>
+            <h5 id="sora_3.1.2">3.1.2 使用方式</h5>
+            <p><span class="sora_huimu" title="看什么看，别看">反正很简单就是了，自行摸索。</span></p>
+        </div>
+        <div class="sora_ssr">
+            <h3 id="sora_4" class="sora_text_center">第四节 绿色无广告的压缩软件</h3>
+            <p>你还在用2345还是WinRAR？卸了吧，试试这个，没有广告！！！</p>
+            <h4 id="sora_4.1">4.1 Bandizip</h4>
+            <p>开发这个软件的公司叫Bandisoft，是一家韩国软件公司。</p>
+            <p>这么说你可能并不认识他，有一款非常好用的录制软件Bandicam最初就是由该公司开发<span class="sora_huimu">虽然是收费的，但是网上一堆注册机</span>。</p>
+            <p>
+                <span class="sora_huimu" title="和本节毫无关系，附赠的...">
+                    <a target="_blank" href="https://yun.soradaisuki.com/homeController/downloadFile.do?fileId=4133b14f-3bf1-40eb-9fbc-6df008c53e66">Bandicam</a>
+                    <a target="_blank" href="https://yun.soradaisuki.com/homeController/downloadFile.do?fileId=94c13503-9ca9-41d6-a107-35a0495c9036">注册机</a>
+                </span>
+            </p>
+            <p>超清爽的界面，没有烦人的广告，比起其它许多压缩软件他还有很多人性化的功能。预览图如下：</p>
+            <p><img style="width: 600px;" src="https://static.lolico.moe/usr/uploads/2018/07/193893565.png"></p>
+            <h5 id="sora_4.1.1">4.1.1 下载方式</h5>
+            <p>
+                <a target="_blank" class="sora_download" href="https://www.bandisoft.com/bandizip/dl.php?web">点击下载</a>
+                <a target="_blank" class="sora_download" href="https://www.bandisoft.com/bandizip/">官方地址</a>
+            </p>
+            <h5 id="sora_4.1.2">4.1.2 使用方法</h5>
+            <p><span class="sora_huimu" title="看什么看，别看">该怎么用就怎么用</span></p>
+        </div>
+        <div class="sora_ssr">
+            <h3 id="sora_5" class="sora_text_center">第五节 找图技巧</h3>
+            <p>学会翻墙了之后，找图就更容易了，在这块还是自己摸索吧，下面我就介绍几个不错的网站。</p>
+            <p><a target="_blank" class="sora_download" href="https://yande.re/post">yande</a></p>
+            <p><a target="_blank" class="sora_download" href="https://gelbooru.com">gelbooru</a></p>
+            <p><a target="_blank" class="sora_download" href="https://lolibooru.moe/">lolibooru</a></p>
+            <p><a target="_blank" class="sora_download" href="https://konachan.com/">konachan</a></p>
+            <p><a target="_blank" class="sora_download" href="http://danbooru.donmai.us/">danbooru</a></p>
+            <p><a target="_blank" class="sora_download" href="https://anime-pictures.net/">anime-pictures</a></p>
+            <p><a target="_blank" class="sora_download" href="https://chan.sankakucomplex.com/post/index">sankakucomplex</a></p>
+            <p>有几个需要账号登录后去除R18限制，还有很多我就不一一列举了，下面是一些优秀的识图引擎：</p>
+            <p><a target="_blank" class="sora_download" href="http://saucenao.com/">saucenao</a></p>
+            <p><a target="_blank" class="sora_download" href="http://iqdb.org/">iqdb</a></p>
+            <p><a target="_blank" class="sora_download" href="https://www.google.com/imghp">google</a></p>
+            <p><a target="_blank" class="sora_download" href="https://tineye.com/">tineye</a></p>
+            <p><a target="_blank" class="sora_download" href="https://trace.moe/">WAIT</a>这个是图片搜动漫出处的，里番也能找</p>
+            <p>最后一节也写完了，好累啊~<span class="sora_huimu">写不动了最后一节水一水</span></p>
+        </div>
+        <div class="sora_ssr">
+            <h3 class="sora_text_center">最终篇 福利</h3>
+            <p><img style="width: 220px;" src="https://yun.soradaisuki.com/fileblocks/file_0e6ed62cf2934089a9b6a55d2cb2baac.block"></p>
+            <p>[史鬼匠人] 桜宮姉妹のネトラレ記録 ユリシス</p>
+            <p>
+                <a target="_blank" class="sora_download" href="https://yun.soradaisuki.com/homeController/downloadFile.do?fileId=6ceab52c-09e5-49fe-8c27-4a91d9cbb525">1-3话</a>
+                <a target="_blank" class="sora_download" href="https://yun.soradaisuki.com/homeController/downloadFile.do?fileId=63e579c2-4bef-4331-8857-631828447a1e">4话</a>
+            </p>
+            <p><img style="width: 550px;" src="https://yun.soradaisuki.com/fileblocks/file_46d7e61d3e8645cb9f1b1eeb1dbec51b.block"></p>
+            <p>[創田ぐみ] 何もしてないのにビッチ母娘に逆レイプされまくった！ MUJINコミックス</p>
+            <p><a target="_blank" class="sora_download" href="https://yun.soradaisuki.com/homeController/downloadFile.do?fileId=1f33b3d7-7cd3-4302-805c-7f3e7a2c403b">全本</a></p>
+        </div>
+    </div>
+    <div class="sora_nav">
+        <div class="sora_nav_img">
+            <img src="https://yun.soradaisuki.com/fileblocks/file_92669683c0724c08a73ddbdaecdd687b.block">
+        </div>
+        <ul class="sora_ul">
+            <li>
+                <a href="#sora_1">科学上网</a>
+                <div class="sora_p_2nd">
+                    <a href="#sora_1.1">Shadowsocks</a>
+                    <div class="sora_p_3rd">
+                        <a href="#sora_1.1.1">下载</a>
+                        <a href="#sora_1.1.2">使用方法</a>
+                    </div>
+                    <a href="#sora_1.2">Shadowsocks R</a>
+                    <div class="sora_p_3rd">
+                        <a href="#sora_1.2.1">下载方式</a>
+                        <a href="#sora_1.2.2">使用方法</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="#sora_2">告别迅雷</a>
+                <div class="sora_p_2nd">
+                    <a href="#sora_2.1">FDM</a>
+                    <div class="sora_p_3rd">
+                        <a href="#sora_2.1.1">下载</a>
+                        <a href="#sora_2.1.2">使用方法</a>
+                    </div>
+                    <a href="#sora_2.2">Aria2</a>
+                    <div class="sora_p_3rd">
+                        <a href="#sora_2.2.1">下载方式</a>
+                        <a href="#sora_2.2.2">使用方法</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="#sora_3">告别百度云</a>
+                <div class="sora_p_2nd">
+                    <a href="#sora_3.1">PanDownload</a>
+                    <div class="sora_p_3rd">
+                        <a href="#sora_3.1.1">下载</a>
+                        <a href="#sora_3.1.2">使用方法</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="#sora_4">绿色压缩软件</a>
+                <div class="sora_p_2nd">
+                    <a href="#sora_4.1">Bandizip</a>
+                    <div class="sora_p_3rd">
+                        <a href="#sora_4.1.1">下载</a>
+                        <a href="#sora_4.1.2">使用方法</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="#sora_5">找图技巧</a>
+            </li>
+            <li>
+                <a href="#sora_title">回到梦的起点</a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
